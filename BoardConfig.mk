@@ -68,11 +68,3 @@ USE_CAMERA_STUB := true
 
 BOARD_RIL_CLASS := ../../../device/google/sprout/ril/
 
-BOARD_SEPOLICY_DIRS += \
-    device/google/sprout/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    device.te \
-    app.te \
-    netd.te
