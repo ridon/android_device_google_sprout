@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="ridon/ridon-device-google-sprout" path="device/google/sprout" remote="ridon-remote" revision="ridon-5.0" />
-  <project name="ridon/ridon-kernel-google-sprout" path="kernel/google/sprout" remote="ridon-remote" revision="ridon-5.0" />
+  <project name="ridon/ridon-kernel-mediatek-sprout" path="kernel/mediatek/sprout" remote="ridon-remote" revision="ridon-5.0" />
 </manifest>
