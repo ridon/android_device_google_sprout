@@ -5,6 +5,14 @@ import /init.modem.rc
 on early-init
     setprop ro.mtk.hardware mt6582
     rm /sbin/multi_init
+    export EXTERNAL_STORAGE /storage/sdcard0
+    mkdir /storage 0055 system sdcard_r
+    mkdir /storage/sdcard0 0000 system system
+    # for backwards compatibility
+    symlink /storage/sdcard0 /sdcard
+    symlink /storage/sdcard0 /mnt/sdcard
+
+
 
 on init
     mkdir /protect_f 0771 system system
